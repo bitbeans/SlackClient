@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>slackclient-net</id>
+        <version>0.1.0</version>
+        <authors>Christian Hermann</authors>
+        <owners>Christian Hermann</owners>
+        <licenseUrl>https://github.com/bitbeans/SlackClient/blob/master/LICENSE.md</licenseUrl>
+        <projectUrl>https://github.com/bitbeans/SlackClient</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Simple SlackClient to post a message to a channel</description>
+        <copyright>Copyright (c) 2016 Christian Hermann (bitbeans)</copyright>
+        <language>en-US</language>
+        <tags>slack</tags>
+        <dependencies>
+            <dependency id="Newtonsoft.Json" version="8.0.2" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="SlackClient\bin\Release\SlackClient.dll" target="lib\net\SlackClient.dll" />
+    </files>
+</package>
